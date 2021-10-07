@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#typed
+{
+    color:green;
+}
+#header
+{
+    font-size: 2rem;
+    font-family:cursive;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top:10px ;
+}
+#hero
+{
+    font-size: 1.25rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(163, 90, 90, 0.8),rgba(0,0,0,0.8)),url("download.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.none
+{
+    display: none;
+}
+button
+{
+    width: 200px;
+    height: 40px;
+    background-color:#8300ff;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 5%;
+
+}
+.none
+{
+    display: none;
+}
+button:hover
+{
+opacity: 0.8;
+box-shadow: 0 14px 26px -12px ;
+
+
+}
+#re
+{
+margin-left: 45%;
+width: 10%;
+}
+#res
+{
+width: 100%;
+display: flex;
+height: 70vh;
+flex-direction: row;
+justify-content: space-evenly;
+font-size: 15rem;
+color: darkgreen;
+}
+#desc
+{
+font-size: 1.5rem;
+color: black;
+}
+#individual
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
